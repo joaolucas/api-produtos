@@ -1,7 +1,7 @@
 const { test, describe } = require('node:test')
 const assert = require('node:assert')
-const criarProdutoService = require('../services/produtoService')
-const Produto = require('../domain/Produto')
+const criarProdutoService = require('../src/services/produtoService')
+const Produto = require('../src/domain/Produto')
 
 const mockRepo = {
   findAll:  () => ({ dados: [], total: 0, pagina: 1, limite: 20 }),

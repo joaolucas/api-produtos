@@ -1,6 +1,6 @@
 const { test, describe } = require('node:test')
 const assert = require('node:assert')
-const Produto = require('../domain/Produto')
+const Produto = require('../src/domain/Produto')
 
 describe('Produto — entidade', () => {
 
